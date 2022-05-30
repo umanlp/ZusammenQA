@@ -53,7 +53,6 @@ This repository is currently under the following structure:
 └── eval_scripts
 └── sample_predictions
 └── specialization
-    └── model
 └── img
 └── README.md
 └── orig-README.md

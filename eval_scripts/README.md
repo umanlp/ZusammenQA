@@ -67,37 +67,37 @@ We release the final prediction results as well as the intermediate retrieval re
 See the insturctions at [the Baseline's README](https://github.com/mia-workshop/MIA-Shared-Task-2022/tree/main/baseline#intermediate-results----mdpr-retrieval-results). 
 
 #### Final results F1 | EM |
-The final results of Baselines 2 and 3 are shown below. The final macro average scores of those baselines are: 
+The final results of Baselines 2 and 3 are shown below. The final macro average scores of those baselines for the dev set are: 
 - Baseline 1 = `(38.9 + 18.1 ) / 2`= **28.5** 
 - Baseline 2 = `(39.8 + 17.4) / 2`= **28.6** 
 
 - XOR QA 
 
-| Language | (2) F1 | (2) EM |  (1) F1 | (1) EM |  (Ours TOP3) F1 | (Ours TOP3) EM |
-| :-----: | :-------:| :------: |  :-------:| :------: |  :-------:| :------: |
-| Arabic (`ar`) | 51.3 |  36.0 | 49.7 |  33.7 | 43.9 |31.4|
-| Bengali (`bn`) | 28.7 | 20.2 | 29.2 | 21.2 | 24.0|19.0|
-| Finnish (`fi`) | 44.4 | 35.7 | 42.7 | 32.9  | 35.8|26.8|
-| Japanese (`ja` )| 43.2 | 32.2 | 41.2 | 29.6 | 35.2|25.4|
-| Korean (`ko`) |  29.8 | 23.7 | 30.6 | 24.5 | 26.0|20.9|
-| Russian (`ru`) |  40.7 | 31.9 | 40.2 | 31.1 | 35.9|28.4|
-| Telugu (`te`) |  40.2 | 32.1 | 38.6 | 30.7 | 41.1|34.4|
-| Macro-Average |  39.8 | 30.3 | 38.9| 29.1 | 34.6|26.5|
+| Language | (2) F1 | (2) EM |  (1) F1 | (1) EM |  
+| :-----: | :-------:| :------: |  :-------:| :------: |
+| Arabic (`ar`) | 51.3 |  36.0 | 49.7 |  33.7 | 
+| Bengali (`bn`) | 28.7 | 20.2 | 29.2 | 21.2 | 
+| Finnish (`fi`) | 44.4 | 35.7 | 42.7 | 32.9  | 
+| Japanese (`ja` )| 43.2 | 32.2 | 41.2 | 29.6 | 
+| Korean (`ko`) |  29.8 | 23.7 | 30.6 | 24.5 |
+| Russian (`ru`) |  40.7 | 31.9 | 40.2 | 31.1 | 
+| Telugu (`te`) |  40.2 | 32.1 | 38.6 | 30.7 | 
+| Macro-Average |  39.8 | 30.3 | 38.9| 29.1 | 
 
 - MKQA
 
-| Language | (2) F1 | (2) EM | (1) F1 | (1) EM |(Ours TOP3) F1 | (Ours TOP3) EM |
-| :-----: | :-------:| :------: | :-------:| :------: |  :-------:| :------: |
-| Arabic (`ar`) | 8.8  | 5.7 | 8.9 | 5.1 |6.28|4.21|
-| English (`en`) | 27.9 | 24.5 | 33.9 | 24.9 |29.6|20.4|
-| Spanish (`es`) | 24.9 | 20.9 | 25.1 | 19.3 |21.8|16.6|
-| Finnish (`fi`) | 23.3 | 20.0 | 21.1 | 17.4 |17.4|13.7|
-| Japanese (`ja`) | 15.2 | 6.3 | 15.3 | 5.8 |10.9|4.5|
-| Khmer (`km`) |  5.7 | 4.9 | 6.0 | 4.7 |4.2|3.1|
-| Korean (`ko`) |  8.3 | 6.3 |  6.7 | 4.7 |5.2|3.7|
-| Malaysian (`ms`) | 22.6  |19.7 | 24.6 | 19.7 |18.7|14.9|
-| Russian (`ru`) | 14.0  | 9.4 |  15.6  | 10.6 |10.2|6.3|
-| Swedish (`sv`) |  24.1 | 21.1| 25.5 | 20.6|19.8|15.9|
-| Turkish (`tr`) |  20.6 | 16.7 | 20.4 |  16.1 |14.1|10.9|
-| Chinese-simplified (`zh_cn`) | 13.1  | 6.1 | 13.7  | 5.7 |9.6|4.3|
-| Macro-Average  | 17.4 | 13.5 |  18.1  | 12.9 |14.0|9.9|
+| Language | (2) F1 | (2) EM | (1) F1 | (1) EM |
+| :-----: | :-------:| :------: | :-------:| :------: |
+| Arabic (`ar`) | 8.8  | 5.7 | 8.9 | 5.1 |
+| English (`en`) | 27.9 | 24.5 | 33.9 | 24.9 |
+| Spanish (`es`) | 24.9 | 20.9 | 25.1 | 19.3 |
+| Finnish (`fi`) | 23.3 | 20.0 | 21.1 | 17.4 |
+| Japanese (`ja`) | 15.2 | 6.3 | 15.3 | 5.8 |
+| Khmer (`km`) |  5.7 | 4.9 | 6.0 | 4.7 |
+| Korean (`ko`) |  8.3 | 6.3 |  6.7 | 4.7 |
+| Malaysian (`ms`) | 22.6  |19.7 | 24.6 | 19.7 |
+| Russian (`ru`) | 14.0  | 9.4 |  15.6  | 10.6 |
+| Swedish (`sv`) |  24.1 | 21.1| 25.5 | 20.6|
+| Turkish (`tr`) |  20.6 | 16.7 | 20.4 |  16.1 |
+| Chinese-simplified (`zh_cn`) | 13.1  | 6.1 | 13.7  | 5.7 |
+| Macro-Average  | 17.4 | 13.5 |  18.1  | 12.9 |
