@@ -1,0 +1,4 @@
+jieba==0.42.1
+khmer-nltk==1.5
+pythainlp==3.0.5
+mecab-python3==1.0.5
