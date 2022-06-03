@@ -4,7 +4,7 @@ add2=$3
 add3=$4
 add4=$5
 
-CUDA_VISIBLE_DEVICES=$gpu python run_t5.py \
+CUDA_VISIBLE_DEVICES=$gpu python run_mlm_t5.py \
     --output_dir="./save/mlm/all-wiki-16" \
     --model_type="mt5" \
     --model_name_or_path="google/mt5-base" \

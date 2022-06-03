@@ -17,9 +17,15 @@ Overview of our proposed framework:
 Thanks for the organizers from MIA-Shared-Task, our work is mainly modified from [here](https://github.com/mia-workshop/MIA-Shared-Task-2022).
 
 ## Citation
-If you use any source codes, or datasets included in this repo in your work, please cite the following paper (will be updated soon):
+If you use any source codes, or datasets included in this repo in your work, please cite the following paper:
 <pre>
-
+@article{Hung2022ZusammenQADA,
+  title={ZusammenQA: Data Augmentation with Specialized Models for Cross-lingual Open-retrieval Question Answering System},
+  author={Chia-Chien Hung and Tommaso Green and Robert Litschko and Tornike Tsereteli and Sotaro Takeshita and Marco Bombieri and Goran Glava{\v{s}} and Simone Paolo Ponzetto},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2205.14981}
+}
 </pre>
 
 ## Pretrained Models
@@ -34,12 +40,12 @@ Or you can download it from [umanlp/mt5-mlm-wiki14](https://huggingface.co/umanl
 
 ### 1. Augmented Data 
 
-(Update from Tornike)
+Please check the `data_augmentation` folder for more detailed infos.
 
 ### 2. Corpora for mt5 language-, domain-specialization
 
 Two datasets **mt5-wiki14** and **mt5-16** are created for intermediate training purpose, in order to encode knowledge via the domain- and language-specific corpus.
-You can simply download the data from [mt5-wiki14]() and [mt5-16](). Or you can modify the scripts under `specialization` folder for your own usage.
+You can simply download the data from [mt5-wiki14](https://drive.google.com/drive/folders/1a8b0oH8z3NunrDGOGYgatoja7Ay1qMqH?usp=sharing) and [mt5-16](https://drive.google.com/drive/folders/1KXzX0UdtMV7gns91tnN_1sUND-xWEGn6?usp=sharing). Or you can modify the scripts under `specialization` folder for your own usage.
 
 ## Structure
 This repository is currently under the following structure:
@@ -50,6 +56,7 @@ This repository is currently under the following structure:
     └── mGEN
     └── wikipedia_preprocess 
 └── data
+└── data_augmentation
 └── eval_scripts
 └── sample_predictions
 └── specialization
