@@ -2,7 +2,7 @@
 
 Authors: Chia-Chien Hung, Tommaso Green, Robert Litschko, Tornike Tsereteli, Sotaro Takeshita, Marco Bombieri, Goran Glavaš, Simone Paolo Ponzetto
 
-NAACL 2022. Workshop: Coming soon
+NAACL 2022. MIA Workshop: https://aclanthology.org/2022.mia-1.8/
 
 ## Introduction
 This paper introduces our proposed system for the MIA Shared Task on Cross-lingual Open-retrieval Question Answering (COQA). In this challenging scenario, given an input question the system has to gather evidence documents from a multilingual pool and generate from them an answer in the language of the question. We devised several approaches combining different model variants for three main components: *Data Augmentation*, *Passage Retrieval*, and *Answer Generation*. 
@@ -19,12 +19,24 @@ Thanks for the organizers from MIA-Shared-Task, our work is mainly modified from
 ## Citation
 If you use any source codes, or datasets included in this repo in your work, please cite the following paper:
 <pre>
-@article{Hung2022ZusammenQADA,
-  title={ZusammenQA: Data Augmentation with Specialized Models for Cross-lingual Open-retrieval Question Answering System},
-  author={Chia-Chien Hung and Tommaso Green and Robert Litschko and Tornike Tsereteli and Sotaro Takeshita and Marco Bombieri and Goran Glava{\v{s}} and Simone Paolo Ponzetto},
-  journal={ArXiv},
-  year={2022},
-  volume={abs/2205.14981}
+@inproceedings{hung-etal-2022-zusammenqa,
+    title = "{Z}usammen{QA}: Data Augmentation with Specialized Models for Cross-lingual Open-retrieval Question Answering System",
+    author = "Hung, Chia-Chien  and
+      Green, Tommaso  and
+      Litschko, Robert  and
+      Tsereteli, Tornike  and
+      Takeshita, Sotaro  and
+      Bombieri, Marco  and
+      Glava{\v{s}}, Goran  and
+      Ponzetto, Simone Paolo",
+    booktitle = "Proceedings of the Workshop on Multilingual Information Access (MIA)",
+    month = jul,
+    year = "2022",
+    address = "Seattle, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.mia-1.8",
+    doi = "10.18653/v1/2022.mia-1.8",
+    pages = "77--90"
 }
 </pre>
 
